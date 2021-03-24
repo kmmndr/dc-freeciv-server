@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  freeciv:
+    image: quay.io/kmmndr/freeciv-server:latest
+    ports:
+      - 5556:5556
